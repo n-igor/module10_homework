@@ -6,3 +6,7 @@ const reverseStr = (str) => {
     return res;
 }
 console.log(reverseStr('Hello'));
+
+// Задание верно, но есть более короткий вариант решения:
+
+const reverseString = string.split("").reverse().join("");
